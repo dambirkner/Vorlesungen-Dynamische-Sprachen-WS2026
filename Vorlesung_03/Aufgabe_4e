@@ -1,0 +1,8 @@
+# Aufgabe 4e - Temperaturumrechnung
+
+c = int(input("Gib die Temperatur in Celsius ein: "))
+
+fahrenheit = c * 1.8 + 32
+
+print("Celsius:", c, "°C")
+print("Fahrenheit:", fahrenheit, "°F")
