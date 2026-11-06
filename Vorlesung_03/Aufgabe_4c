@@ -1,0 +1,10 @@
+# Aufgabe 4c - Zylinder
+
+r = int(input("Gib den Radius r in cm ein: "))
+h = int(input("Gib die Höhe h in cm ein: "))
+
+volumen = 3.14 * r ** 2 * h
+oberflaeche = 2 * 3.14 * r * (r + h)
+
+print("Volumen:", volumen, "cm³")
+print("Oberfläche:", oberflaeche, "cm²")

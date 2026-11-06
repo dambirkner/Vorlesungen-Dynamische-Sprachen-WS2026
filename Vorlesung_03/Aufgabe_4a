@@ -1,0 +1,9 @@
+# Aufgabe 4a - Würfel
+
+a = int(input("Gib die Seitenlänge a in cm ein: "))
+
+volumen = a ** 3
+oberflaeche = 6 * a ** 2
+
+print("Volumen:", volumen, "cm³")
+print("Oberfläche:", oberflaeche, "cm²")

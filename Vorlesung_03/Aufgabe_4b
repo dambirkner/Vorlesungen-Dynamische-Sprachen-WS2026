@@ -1,0 +1,11 @@
+# Aufgabe 4b - Quader
+
+a = int(input("Gib die Seitenlänge a in cm ein: "))
+b = int(input("Gib die Seitenlänge b in cm ein: "))
+c = int(input("Gib die Seitenlänge c in cm ein: "))
+
+volumen = a * b * c
+oberflaeche = 2 * (a * b + a * c + b * c)
+
+print("Volumen:", volumen, "cm³")
+print("Oberfläche:", oberflaeche, "cm²")

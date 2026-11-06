@@ -1,0 +1,9 @@
+# Aufgabe 4d - Kugel
+
+r = int(input("Gib den Radius in cm ein: "))
+
+volumen = 4/3 * 3.14 * r ** 3
+oberflaeche = 4 * 3.14 * r ** 2
+
+print("Volumen:", volumen, "cm³")
+print("Oberfläche:", oberflaeche, "cm²")
