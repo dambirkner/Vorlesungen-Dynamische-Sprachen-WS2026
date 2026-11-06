@@ -1,0 +1,9 @@
+# Aufgabe 4f - Durchschnitt berechnen
+
+a = int(input("Gib die erste Zahl ein: "))
+b = int(input("Gib die zweite Zahl ein: "))
+c = int(input("Gib die dritte Zahl ein: "))
+
+durchschnitt = (a + b + c) / 3
+
+print("Durchschnitt:", durchschnitt)
