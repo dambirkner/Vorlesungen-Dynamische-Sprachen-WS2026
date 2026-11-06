@@ -1,0 +1,8 @@
+# Aufgabe 4g - gerade oder ungerade
+
+zahl = int(input("Gib eine Zahl ein: "))
+
+if zahl % 2 == 0:
+    print("Gerade Zahl")
+else:
+    print("Ungerade Zahl")
