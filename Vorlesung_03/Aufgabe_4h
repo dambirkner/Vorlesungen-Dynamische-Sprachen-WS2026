@@ -1,0 +1,18 @@
+# Aufgabe 4h - Taschenrechner
+
+a = int(input("Gib eine Zahl ein: "))
+b = int(input("Gib eine Zahl ein: "))
+
+addition = a + b
+substraktion = a - b
+multiplikation = a * b
+
+if b != 0:
+    division = a / b
+    print("Division:", division)
+else:
+    print("Division durch null nicht möglich!")
+
+print("Addition:", addition)
+print("Substraktion:", substraktion)
+print("Multiplikation:", multiplikation)
