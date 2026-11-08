@@ -1,0 +1,8 @@
+# Aufgabe 4j - Rückwärts zählen
+
+zahl = int(input("Gib eine Zahl ein: "))
+i = zahl # Initialisierung
+
+while i >= 0: # Bedingung
+    print(i)
+    i -= 1 # Zähler erhöhen (Inkrementieren), um Endlosschleife zu verhindern
